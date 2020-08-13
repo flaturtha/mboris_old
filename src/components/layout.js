@@ -4,6 +4,7 @@ import { StaticQuery, graphql } from "gatsby";
 
 import heroImg from "../images/hero.png";
 import headShot from "../images/mboris.jpg"
+import PCTAForm from "./PrimaryCTAForm";
 
 function Layout({ children }) {
   return (
@@ -75,9 +76,7 @@ function Layout({ children }) {
                     Get your free short story prequel &hellip;
                   </p>
 
-                  <form action={data.site.siteMetadata.github} className="mx-auto">
-                    <button type="submit" className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Get My Free Story</button>
-                  </form>
+                  <PCTAForm />
 
                 </div>
 
