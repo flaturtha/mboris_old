@@ -10,14 +10,14 @@ const PCTAForm = (props) => (
       <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
         Name
       </label>
-      <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="First Name &hellip;" />
+      <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" name="name" type="text" placeholder="First Name &hellip;" />
     </div>
 
     <div className="mb-6">
       <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
         Email Address
       </label>
-      <input className="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="me@myawesomeemail.com" />
+      <input className="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="email" name="email" type="email" placeholder="me@myawesomeemail.com" />
     </div>
 
     <div className="flex items-center justify-between">
